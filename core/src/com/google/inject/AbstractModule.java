@@ -73,6 +73,7 @@ public abstract class AbstractModule implements Module {
     return binder;
   }
 
+
   /** @see Binder#bindScope(Class, Scope) */
   protected void bindScope(Class<? extends Annotation> scopeAnnotation, Scope scope) {
     binder().bindScope(scopeAnnotation, scope);
